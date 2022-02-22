@@ -1,0 +1,146 @@
+* {
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    /* font-size: 62.5%; */
+    font-family: 'IBM Plex Sans Thai Looped','Roboto', sans-serif, 'Roboto Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: rgb(73, 91, 110);
+    color: rgb(238, 236, 236);
+    text-align: center;
+    font-size: 400;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    color: rgb(73, 91, 110);
+    background-color: rgb(238, 236, 236);
+    font-weight: 600;
+    box-shadow: 1px 8px 10px 1px rgba(42, 42, 42, 0.238);
+}
+
+header section {
+    padding: 4rem;
+}
+
+p {
+    margin: 2rem 20%;
+}
+header p {
+    font-weight: bold;
+    font-weight: 600;
+}
+
+.why, .volunteer {
+    text-align: center;
+    background-color: rgb(238, 236, 236);
+    padding: 5rem;
+}
+
+h2, h1, h3, h4, a.btn {
+    text-transform: uppercase;
+}
+
+header h1 {
+    font-size: 600;
+}
+
+.action {    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem;
+    background-color: rgb(201, 208, 214);
+    color: black;
+}
+
+section.action div * {
+    margin: 2rem;
+}  
+
+a.btn {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+footer {
+    background-color: rgb(17, 12, 46);
+    color: rgb(201, 208, 214);
+    font-size: 0.8rem;
+}
+footer section {
+    padding: 1rem;
+}
+footer h2 {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+div.footer-nav a, div.media * {
+    padding-right: 4px;
+}
+
+span {
+    color: rgb(179, 179, 226);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 1% 0;
+}
+
+.media, .site-map {
+    margin: 2% 0;
+}
+
+.media {
+    display: block;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid rgb(201, 208, 214);
+    padding: 2% 0;
+    margin: 0 4%;
+}
+.copyright p, .address p {
+    margin: 0;
+}
+
+footer > section {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+@media all and (max-width: 700px) {
+   p {
+       margin: 1rem;
+   } 
+   header section, .why, .volunteer {
+       padding: 2rem 1rem;
+   } 
+   .action {
+    flex-wrap: wrap;
+    padding: 2rem 1rem;
+   }
+ 
+}
